@@ -7,7 +7,8 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
             <ScrollViewer>
-                <DataGrid ItemsSource="{Binding Result,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="True">
+                <TextBox Text="{Binding Result, Mode=OneWay,UpdateSourceTrigger=PropertyChanged}" />
+                <!--<DataGrid ItemsSource="{Binding Result,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="True">
                     <DataGrid.RowDetailsTemplate>
                         <DataTemplate>
                         <DataGrid ItemsSource="{Binding Properties,Mode=OneWay,UpdateSourceTrigger=PropertyChanged}" AutoGenerateColumns="True">
@@ -15,7 +16,7 @@
                         </DataGrid>
                     </DataTemplate>
                     </DataGrid.RowDetailsTemplate>
-                </DataGrid>
+                </DataGrid>-->
             </ScrollViewer>
     </Grid>
 </UserControl>

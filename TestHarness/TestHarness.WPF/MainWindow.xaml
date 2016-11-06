@@ -4,7 +4,6 @@
         Title="MainWindow" MinHeight="350" MinWidth="525" DataContext="{Binding MainViewModel,Source={StaticResource ViewModelLocator}}" >
     <Grid>
 <StackPanel Orientation="Vertical">
-
             <Expander IsExpanded="True" Header="Assembly" ExpandDirection="Down">
                 <uc:AssemblyDetailView DataContext="{Binding AssemblyDetailViewModel}" />
             </Expander>
@@ -18,7 +17,7 @@
             </Expander>
 
             <Expander IsExpanded="True" Header="Result" ExpandDirection="Down">
-                <uc:MethodDetailView DataContext="{Binding MethodDetailViewModel,Mode=OneTime}" />
+                <uc:ResultView DataContext="{Binding MethodDetailViewModel,Mode=OneTime}" />
             </Expander>
 
         </StackPanel>
