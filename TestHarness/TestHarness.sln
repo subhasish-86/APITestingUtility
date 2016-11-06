@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness.WinForm", "TestHarness\TestHarness.WinForm.csproj", "{90F7E367-6D41-4818-AC93-B480FE24CD6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness.Entities", "TestHarness.Entities\TestHarness.Entities.csproj", "{97D68933-96F0-48F9-A0D2-669E25779A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness.ViewModel", "TestHarness.ViewModel\TestHarness.ViewModel.csproj", "{93EA2F97-548C-4DE6-A31B-9520BD9FCA63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness.WPF", "TestHarness.WPF\TestHarness.WPF.csproj", "{0AED4B9C-3C58-4E71-A529-89A987168E44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApi", "TestApi\TestApi.csproj", "{01454891-8F48-43C6-9783-7342DDBD413E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://subhasishpattanayak.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TestHarness.Entities\\TestHarness.Entities.csproj
+		SccProjectName1 = TestHarness.Entities
+		SccLocalPath1 = TestHarness.Entities
+		SccProjectUniqueName2 = TestHarness.ViewModel\\TestHarness.ViewModel.csproj
+		SccProjectName2 = TestHarness.ViewModel
+		SccLocalPath2 = TestHarness.ViewModel
+		SccProjectUniqueName3 = TestHarness.WPF\\TestHarness.WPF.csproj
+		SccProjectName3 = TestHarness.WPF
+		SccLocalPath3 = TestHarness.WPF
+		SccProjectUniqueName4 = TestApi\\TestApi.csproj
+		SccProjectName4 = TestApi
+		SccLocalPath4 = TestApi
+		SccProjectUniqueName5 = TestHarness\\TestHarness.WinForm.csproj
+		SccProjectName5 = TestHarness
+		SccLocalPath5 = TestHarness
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90F7E367-6D41-4818-AC93-B480FE24CD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F7E367-6D41-4818-AC93-B480FE24CD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F7E367-6D41-4818-AC93-B480FE24CD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F7E367-6D41-4818-AC93-B480FE24CD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D68933-96F0-48F9-A0D2-669E25779A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D68933-96F0-48F9-A0D2-669E25779A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D68933-96F0-48F9-A0D2-669E25779A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D68933-96F0-48F9-A0D2-669E25779A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93EA2F97-548C-4DE6-A31B-9520BD9FCA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EA2F97-548C-4DE6-A31B-9520BD9FCA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EA2F97-548C-4DE6-A31B-9520BD9FCA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EA2F97-548C-4DE6-A31B-9520BD9FCA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AED4B9C-3C58-4E71-A529-89A987168E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AED4B9C-3C58-4E71-A529-89A987168E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AED4B9C-3C58-4E71-A529-89A987168E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AED4B9C-3C58-4E71-A529-89A987168E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01454891-8F48-43C6-9783-7342DDBD413E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01454891-8F48-43C6-9783-7342DDBD413E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01454891-8F48-43C6-9783-7342DDBD413E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01454891-8F48-43C6-9783-7342DDBD413E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
